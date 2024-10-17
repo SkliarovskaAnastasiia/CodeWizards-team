@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
+  min-width: 355px;
 }
 
 .slogan-text {
@@ -15,14 +16,58 @@
   line-height: 1.04;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  padding-left: 10px;
-  border-radius: 12px;
-  background-color: #576f35;
+
+  color: #141414;
+  background-color: #fbfbfb;
 }
 
 .slogan-text-part {
   display: block;
-  width: 100%;
-  color: #141414;
-  background-color: #fbfbfb;
+  border-radius: 12px;
+  padding-left: 10px;
+  color: #fbfbfb;
+  background-color: #576f35;
+}
+
+@media only screen and (min-width: 768px) {
+  .slogan-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .slogan-container {
+    max-width: 736px;
+    padding: 0;
+  }
+
+  .slogan-text {
+    font-size: 64px;
+    line-height: 1.09;
+    letter-spacing: -0.01em;
+  }
+
+  .slogan-text-part {
+    height: 86px;
+    padding-left: 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .slogan-container {
+    max-width: 1080px;
+  }
+
+  .slogan-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 76px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+
+  .slogan-text-part {
+    max-width: 808px;
+    padding-left: 13px;
+    margin-right: 4px;
+  }
 }
