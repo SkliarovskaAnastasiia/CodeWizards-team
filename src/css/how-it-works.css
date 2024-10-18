@@ -10,6 +10,7 @@
 }
 .how-it-works-content-section {
   background-color: #576f35;
+  display: flex;
 }
 .how-it-works-first-description {
   font-weight: 600;
@@ -37,7 +38,6 @@
   position: relative;
   display: flex;
   align-content: center;
-  word-wrap: break-word;
   flex-wrap: wrap;
   gap: 3px;
   border-radius: 15px;
@@ -67,13 +67,10 @@
   top: 12px;
   left: 24px;
   border-radius: 50%;
-  border: 5px solid rgba(122, 49, 69, 0.3);
+  outline: 5px solid rgba(122, 49, 69, 0.3);
   background-color: #7a3145;
   width: 52px;
   height: 52px;
-}
-.how-it-works-list-text {
-  word-wrap: none;
 }
 .how-it-works-list-item-accent {
   font-weight: 700;
