@@ -19,15 +19,26 @@ body {
 }
 
 .section-paddings {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .section-title {
   font-weight: 600;
-  font-size: 64px;
-  line-height: 1;
+  font-size: 48px;
+  line-height: 1.04;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-paddings {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .section-title {
+    font-size: 64px;
+    line-height: 1;
+  }
 }
