@@ -1,0 +1,93 @@
+/* #region Hero-main-styles */
+.hero-section {
+  position: relative;
+  background-color: #576f35;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-main-part {
+  padding: 100px 20px 40px;
+  margin-right: auto;
+}
+
+.hero-main-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+}
+
+.hero-image-part {
+  height: 370px;
+  width: 100%;
+  background-image: url('/images/hero/hero-mobile.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* #endregion */
+
+/* #region Hero-tablet styles */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .hero-main-part {
+    padding: 122px 32px 50px;
+  }
+  .hero-main-title {
+    font-size: 76px;
+    line-height: 76px;
+    margin-bottom: 25px;
+  }
+  .hero-text {
+    font-family: Inter Tight;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    max-width: 603px;
+  }
+  .hero-image-part {
+    background-image: url('../images/hero/hero-tablet.jpg');
+    height: 539px;
+  }
+}
+/* #endregion */
+
+/* #region Hero-desktop-styles */
+@media (min-width: 1280px) {
+  .hero-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hero-main-part {
+    padding: 238px 28px 50px 100px;
+    max-width: 630px;
+  }
+  .hero-main-title {
+    font-size: 76px;
+    line-height: 76px;
+    margin-bottom: 128px;
+  }
+  .hero-text {
+    padding-right: 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .hero-image-part {
+    flex-grow: initial;
+    background-image: url('../images/hero/hero-desk.jpg');
+    width: 650px;
+    height: 800px;
+  }
+}
+/* #endregion */
