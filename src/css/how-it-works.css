@@ -15,10 +15,6 @@
   display: flex;
   flex-direction: column;
 }
-.how-it-works-content-section .container {
-  margin-left: auto;
-  margin-right: auto;
-}
 .how-it-works-first-description {
   font-weight: 600;
   font-size: 28px;
@@ -39,18 +35,18 @@
   margin-bottom: 40px;
 }
 .how-it-works-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   counter-reset: item 0;
 }
 .how-it-works-list-item {
   position: relative;
-  /* display: flex;
+  display: flex;
+  align-content: center;
+  word-wrap: break-word;
   flex-wrap: wrap;
-  gap: 2px; */
+  gap: 3px;
   border-radius: 15px;
-  padding: 12px 27px 12px 100px;
+  padding-left: 100px;
+  padding-right: 24px;
   max-width: 335px;
   height: 76px;
   background-color: #fbfbfb;
@@ -72,20 +68,23 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 12px;
+  left: 24px;
   border-radius: 50%;
   border: 5px solid rgba(122, 49, 69, 0.3);
   background-color: #7a3145;
-  width: 52px;
-  height: 52px;
-
-  margin: 12px 24px;
+  width: 42px;
+  height: 42px;
 }
-
+.how-it-works-list-text {
+  word-wrap: none;
+}
 .how-it-works-list-item-accent {
   font-weight: 700;
   color: #141414;
+}
+.how-it-works-list-item:not(:last-child) {
+  margin-bottom: 20px;
 }
 /*
 ================================================= TABLET 👇
@@ -113,7 +112,6 @@
     max-width: 450px;
     font-size: 16px;
     line-height: 1.25;
-    padding: 12px 25px 12px 100px;
   }
 } /*
 ================================================= DESKTOP 👇
@@ -121,9 +119,10 @@
 @media screen and (min-width: 1280px) {
   .how-it-works-section {
     flex-direction: row;
+    justify-content: space-between;
   }
   .how-it-works-img {
-    margin: 100px;
+    margin: 100px auto;
   }
   .how-it-works-second-description {
     margin-bottom: 50px;
