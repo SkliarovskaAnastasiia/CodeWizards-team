@@ -1,12 +1,15 @@
-.back {
-  background-color: #576f35;
-  max-width: 375px;
-  height: 100vh;
-  margin: 0 auto;
+.header {
+  position: absolute;
 }
-.header-container {
+
+.header-nav {
   display: flex;
   justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  /* justify-content: space-between; */
   align-items: center;
   width: 100%;
   padding: 20px;
@@ -14,9 +17,10 @@
 .burget-btn {
   background-color: transparent;
   border: 0;
+  line-height: 0;
 }
 @media only screen and (min-width: 768px) {
-  .header-list {
+  .header-container {
     padding: 32px;
   }
   .header-logo {
@@ -30,9 +34,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .back {
-    min-width: 1280px;
-  }
   .burget-btn {
     display: none;
   }
@@ -47,6 +48,7 @@
     line-height: 111%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .button-nav:hover,
   .button-nav:focus {
