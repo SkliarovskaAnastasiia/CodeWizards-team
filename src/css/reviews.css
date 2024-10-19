@@ -68,28 +68,16 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .section-reviews {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+/* --- 768px --- */
 
+@media only screen and (min-width: 768px) {
   .section-reviews-title {
     width: 553px;
+    margin-bottom: 50px;
   }
 
   .reviews-title {
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #141414;
-  }
-
-  .reviews-description {
-    font-size: 16px;
-    line-height: 1.25;
+    margin-bottom: 25px;
   }
 
   .section-reviews-list {
@@ -110,8 +98,6 @@
   .section-review-container-info-subtitle {
     font-size: 18px;
     line-height: 1.1;
-    letter-spacing: -0.02em;
-    text-align: center;
     color: #141414;
   }
 
@@ -121,6 +107,8 @@
     color: rgba(20, 20, 20, 0.4);
   }
 }
+
+/* --- 1280px --- */
 
 @media only screen and (min-width: 1280px) {
   .section-reviews-list {
