@@ -1,0 +1,122 @@
+.section-reviews {
+  background: #fbfbfb;
+}
+
+.section-reviews-title {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.reviews-title {
+  color: #141414;
+  margin-bottom: 20px;
+}
+
+.reviews-title-color {
+  color: #576f35;
+}
+
+.reviews-description {
+  color: #141414;
+}
+
+.section-reviews-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-reviews-items {
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  padding: 20px 16px 38px 16px;
+  max-width: 335px;
+}
+
+.section-review-container-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.section-review-container-info-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin: 8px;
+}
+
+.section-review-container-info-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-reviews-items {
+    display: none; /* Ховати всі елементи */
+  }
+
+  .section-reviews-items:first-child {
+    display: block; /* Показати лише перший елемент */
+  }
+}
+
+/* --- 768px --- */
+
+@media only screen and (min-width: 768px) {
+  .section-reviews-title {
+    width: 553px;
+    margin-bottom: 50px;
+  }
+
+  .reviews-title {
+    margin-bottom: 25px;
+  }
+
+  .section-reviews-list {
+    gap: 18px;
+  }
+
+  .section-reviews-items {
+    display: none; /* Ховати всі елементи */
+    max-width: calc((100% - 18px) / 2);
+
+    padding: 20px;
+  }
+
+  .section-reviews-items:nth-child(-n + 2) {
+    display: block; /* Показати перші два елементи */
+  }
+
+  .section-review-container-info-subtitle {
+    font-size: 18px;
+    line-height: 1.1;
+    color: #141414;
+  }
+
+  .section-review-container-info-description {
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgba(20, 20, 20, 0.4);
+  }
+}
+
+/* --- 1280px --- */
+
+@media only screen and (min-width: 1280px) {
+  .section-reviews-list {
+    gap: 25px;
+  }
+
+  .section-reviews-items {
+    display: block; /* Показати всі елементи */
+    max-width: calc((100% - 50px) / 3);
+  }
+}
