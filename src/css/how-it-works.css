@@ -17,22 +17,16 @@
 .how-it-works-text-section {
   padding: 80px 20px;
 }
-.how-it-works-first-description {
-  font-weight: 600;
+.how-it-works-title {
   font-size: 28px;
   line-height: 1;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
 }
-.how-it-works-first-description-accent {
+.how-it-works-title-accent {
   color: rgba(251, 251, 251, 0.3);
 }
-.how-it-works-second-description {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
+.how-it-works-description {
   color: #fbfbfb;
   margin-bottom: 40px;
 }
@@ -91,25 +85,20 @@
   .how-it-works-section {
     background-position: 0 840px;
   }
-  .how-it-works-container {
-    padding: 0;
-  }
   .how-it-works-img-wrapper {
     padding: 100px 64px;
   }
   .how-it-works-text-section {
     padding: 100px 159px;
   }
-  .how-it-works-first-description {
+  .how-it-works-title {
     font-size: 32px;
     max-width: 450px;
     margin-bottom: 25px;
   }
-  .how-it-works-second-description {
-    font-size: 16px;
+  .how-it-works-description {
     max-width: 450px;
-    line-height: 1.25;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   .how-it-works-list {
     max-width: 450px;
@@ -127,10 +116,6 @@
     background-size: 50% 100%;
     background-position: 100% 0;
   }
-
-  .how-it-works-container {
-    padding: 0;
-  }
   .how-it-works-content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -141,8 +126,5 @@
   .how-it-works-text-section {
     padding: 100px;
     max-width: 650px;
-  }
-  .how-it-works-second-description {
-    margin-bottom: 50px;
   }
 }
