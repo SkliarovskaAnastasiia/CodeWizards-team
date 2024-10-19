@@ -1,7 +1,5 @@
 .section-reviews {
   background: #fbfbfb;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 .section-reviews-title {
@@ -10,57 +8,35 @@
 }
 
 .reviews-title {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 1.04167;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
   color: #141414;
   margin-bottom: 20px;
 }
+
 .reviews-title-color {
   color: #576f35;
 }
 
 .reviews-description {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
   color: #141414;
 }
 
 .section-reviews-list {
   display: flex;
-  align-items: stretch;
   justify-content: center;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .section-reviews-items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
   padding: 20px 16px 38px 16px;
-  gap: 24px;
   max-width: 335px;
 }
 
 .section-review-container-image {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.section-review-container-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-
-  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
 }
 
 .section-review-container-info-subtitle {
@@ -70,7 +46,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #040306;
-  margin: 0;
+  margin: 8px;
 }
 
 .section-review-container-info-description {
@@ -79,7 +55,6 @@
   line-height: 1.29;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
-  margin-bottom: 0;
   max-width: 100%;
 }
 
@@ -89,7 +64,7 @@
   }
 
   .section-reviews-items:first-child {
-    display: flex; /* Показати лише перший елемент */
+    display: block; /* Показати лише перший елемент */
   }
 }
 
@@ -113,10 +88,8 @@
   }
 
   .reviews-description {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
-    color: #141414;
   }
 
   .section-reviews-list {
@@ -131,7 +104,7 @@
   }
 
   .section-reviews-items:nth-child(-n + 2) {
-    display: flex; /* Показати перші два елементи */
+    display: block; /* Показати перші два елементи */
   }
 
   .section-review-container-info-subtitle {
@@ -145,7 +118,6 @@
   .section-review-container-info-description {
     font-size: 16px;
     line-height: 1.4;
-    text-align: center;
     color: rgba(20, 20, 20, 0.4);
   }
 }
@@ -156,7 +128,7 @@
   }
 
   .section-reviews-items {
-    display: flex; /* Показати всі елементи */
+    display: block; /* Показати всі елементи */
     max-width: calc((100% - 50px) / 3);
   }
 }
