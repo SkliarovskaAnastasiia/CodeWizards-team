@@ -22,13 +22,12 @@
 }
 
 .footer-nav-item {
-  display: block;
   font-weight: 600;
   font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
   margin-bottom: 14px;
+  transition: (250ms cubic-bezier(.4,0,.2,1));
 }
 
 .footer-nav-item:last-child {
@@ -45,9 +44,9 @@
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
   font-style: normal;
   margin-bottom: 14px;
+  transition: (250ms cubic-bezier(.4,0,.2,1));
 }
 
 .contacts-item:last-child {
@@ -76,7 +75,7 @@
 
 .footer-down-a:hover,
 .footer-down-a:focus {
-  line-height: 1.33;
+  line-height: 16px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
@@ -94,16 +93,6 @@
     justify-content: space-between;
   }
 
-  .footer-page-logo {
-    margin-bottom: 64px;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
   .footer-nav-item:last-child {
     margin-bottom: 64px;
   }
@@ -112,6 +101,16 @@
   .footer-nav,
   .contacts-item:last-child {
     margin-bottom: 0;
+  }
+
+  .footer-list-down {
+    font-size: 18px;
+    line-height: 111%;
+  }
+
+  .footer-down-a:hover,
+  .footer-down-a:focus {
+    line-height: 20px;
   }
 }
 
@@ -128,7 +127,7 @@
   .footer-page {
     display: flex;
     justify-content: space-between;
-    flex-basis: 45%;
+    flex-basis: 47%;
   }
 
   .footer-nav-item:last-child {
