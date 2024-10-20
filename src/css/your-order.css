@@ -10,25 +10,15 @@
     color: rgba(251, 251, 251, 0.3);
 }
 
-.section-con-feedback {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 20px;
-}
 .order-form{
     width: 335px;
     height: 533px;
     background: #fff;
+    margin-bottom: 20px;
 }
 @import url('./form.css');
 
 .section-con-social {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
     border-radius: 30px;
     padding: 40px 20px;
     background: #576f35;
@@ -36,9 +26,6 @@
 
 .order-picture {
     margin-bottom: 20px;
-}
-
-img {
     border-radius: 15px;
 }
 
@@ -46,6 +33,7 @@ img {
     color: rgba(251, 251, 251, 0.5);
     letter-spacing: -0.01em;
     margin-bottom: 14px;
+    font-weight: 600;
 }
 
 .order-ul {
@@ -56,12 +44,10 @@ img {
 }
 
 .order-li {
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.08;
     letter-spacing: -0.01em;
-    color: #fbfbfb;
 }
 @media only screen and (min-width:768px) {
     .section-con-title{
@@ -71,14 +57,17 @@ img {
     .section-title-h{
         margin-bottom: 25px;
     }
+    .section-con-feedback{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:25px;
+    }
     .order-form{
         width: 628px;
         height: 534px;
-    }
-    .section-con-feedback{
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
+        margin: 0;
     }
     .section-con-social {
         padding:50px;
@@ -87,7 +76,6 @@ img {
         margin-bottom: 50px;
     }
     .order-desc-social{
-        font-weight: 600;
         font-size: 18px;
         line-height: 1.11;
         margin-bottom: 15px;
@@ -105,10 +93,8 @@ img {
      max-width: 751px;
     }
     .section-con-feedback{
-        display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        gap: 24px;
     }
     .order-form {
         width: 529px;
