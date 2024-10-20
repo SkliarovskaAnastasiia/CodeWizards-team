@@ -88,6 +88,10 @@
     justify-content: space-between;
   }
 
+  .footer-page-logo {
+    margin-bottom: 0;
+  }
+
   .footer-nav { 
     margin-bottom: 40px;
     }
@@ -119,7 +123,6 @@
     flex-basis: 47%;
   }
 
-  .footer-page-logo,
   .footer-nav,
   .contacts {
     margin-bottom: 0;
