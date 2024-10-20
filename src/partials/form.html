@@ -1,20 +1,39 @@
-<form class="form-container">
-  <div class="form-group">
-    <div class="container-title">
-      <p class="form-title">
-        Ordering <span class="form-a">from us</span> is quick and easy! Fill out
-        <span class="form-b">the form</span> below and we will contact you !
-      </p>
-      <div class="form-group">
-        <input type="text" id="fullName" name="fullName" class="form-input-name" placeholder="Full Name">
-    </div>
-    <div class="form-group">
-        <input type="email" id="email" name="email" class="form-input-mail" placeholder="Email">
-    </div>
-    <div class="form-group">
-        <input type="text" id="comment" name="comment" class="form-input" placeholder="Comment">
-    </div>
-    <div class="form-group">
-        <button type="submit" class="form-button">SEND</button>
-    </div>
-</form>
+<div class="form-container">
+  <p class="form-title">
+    Ordering <span class="form-a">from us</span> is quick and easy! Fill out
+    <span class="form-b">the form</span> below and we will contact you !
+  </p>
+
+  <div class="inp-wrp">
+    <input
+      class="inp section-description"
+      type="name"
+      name="name"
+      placeholder="Full Name"
+      pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+      required
+    />
+  </div>
+
+  <div class="inp-wrp">
+    <input
+      class="inp section-description"
+      type="email"
+      name="email"
+      placeholder="Email"
+      pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+      required
+    />
+  </div>
+
+  <div class="inp-wrp">
+    <input
+      class="inp inp-height section-description"
+      type="comment"
+      name="comment"
+      placeholder="Comment"
+    />
+  </div>
+
+  <button type="submit" class="form-button">SEND</button>
+</div>
