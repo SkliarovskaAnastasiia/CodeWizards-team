@@ -89,11 +89,6 @@
   .inp {
     width: 428px;
     height: 52px;
-    padding: 0 20px;
-    border: 1px solid rgba(20, 20, 20, 0.2);
-    border-radius: 30px;
-
-    outline: none;
   }
   .form-title {
     margin-bottom: 40px;
@@ -106,5 +101,21 @@
   }
   .form-button {
     padding: 16px 191px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .form-container {
+    padding: 50px 50px;
+    width: 529px;
+  }
+  .form-title {
+    margin-bottom: 50px;
+  }
+  .inp {
+    width: 429px;
+  }
+  .form-button {
+    width: 429px;
   }
 }
