@@ -1,17 +1,20 @@
+
+/* mobile */
+
 .vegetable-container {
-    padding: 80px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+.section-paddings {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
 .vegetables-title {
-    font-weight: 600;
-font-size: 48px;
-line-height: 1.04167;
-letter-spacing: -0.01em;
-text-transform: uppercase;
 color: #fbfbfb;
-width: 335px;
-margin-left: auto;
-margin-right: auto;
+max-width: 335px;
 margin-bottom: 20px;
 
 }
@@ -20,22 +23,17 @@ margin-bottom: 20px;
     color: rgba(251, 251, 251, 0.3);
 }
 
+
 .vegetables-paragraph {
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 1.28571;
+
         color: #fbfbfb;
-        margin-left: auto;
-        margin-right: auto;
         margin-bottom: 40px;
-        width: 335px;
+        max-width: 335px;
 }
 
 .vegetables-list {
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
       gap: 20px;
 }
 
@@ -43,8 +41,7 @@ margin-bottom: 20px;
   
 border-radius: 40px;
 padding: 32px 26px;
-width: 334px;
-height: 379px;  
+max-width: 334px;  
 background: #fbfbfb;
 }
 
@@ -60,8 +57,66 @@ background: #fbfbfb;
 .vegetable-price {
    font-weight: 600;
 font-size: 14px;
-line-height: 1.28571;
+line-height: 1.28;
 letter-spacing: -0.01em;
 text-transform: uppercase;
 color: #141414; 
+margin-bottom: 10px;
 }
+
+
+
+/* tablet */
+
+@media screen and (min-width: 768px){
+.section-paddings {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+.vegetables-title { 
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 50px;
+max-width: 508px;
+}
+
+.vegetables-paragraph {
+max-width: 626px;
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 50px;
+}
+
+.vegetables-list {
+    gap: 28px 20px;
+}
+
+.vegetables-item {
+border-radius: 40px;
+padding: 32px 30px;
+max-width: 342px;
+}
+
+.vegetable-name {
+font-size: 32px;
+}
+}
+
+
+/* desktop */
+
+@media screen and (min-width: 1280px) {
+ .vegetable-container {
+    padding: 100px;
+ }
+
+
+ .vegetables-title {
+margin-bottom: 25px;
+ }
+
+}
+
+
