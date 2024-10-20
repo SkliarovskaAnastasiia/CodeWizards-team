@@ -2,19 +2,6 @@
   padding: 40px 0;
 }
 
-/* .footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
-} */
-
 .footer-page-logo {
   display: flex;
   flex-direction: column;
@@ -30,33 +17,28 @@
   color: #fbfbfb;
 }
 
-.footer-nav-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.footer-nav {
   margin-bottom: 40px;
 }
 
-.footer-nav-link {
+.footer-nav-item {
   display: block;
   font-weight: 600;
   font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
   color: #fbfbfb;
+  margin-bottom: 14px;
+}
+
+.footer-nav-item:last-child {
+  margin-bottom: 40px;
 }
 
 .footer-nav-link:hover,
 .footer-nav-link:focus {
     color: #576f35;
 }
-
-.contacts-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-bottom: 80px;
-} 
 
 .contacts-item {
   font-weight: 600;
@@ -65,6 +47,11 @@
   letter-spacing: -0.01em;
   color: #fbfbfb;
   font-style: normal;
+  margin-bottom: 14px;
+}
+
+.contacts-item:last-child {
+  margin-bottom: 80px;
 }
 
 .contacts .contacts-link:hover,
@@ -87,10 +74,19 @@
   gap: 8px
 }
 
+.footer-down-a:hover,
+.footer-down-a:focus {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+
 @media screen and (min-width: 768px) {
-  /* .footer {
-    padding: 32px;
-  } */
+  .footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 
   .footer-container-page {
     display: flex;
@@ -98,11 +94,6 @@
     justify-content: space-between;
   }
 
-  /* .footer-page-logo,
-  .contacts-list {
-    margin: 0;
-  }   */
-  
   .footer-page-logo {
     margin-bottom: 64px;
   }
@@ -113,10 +104,13 @@
     justify-content: space-between;
 }
 
+  .footer-nav-item:last-child {
+    margin-bottom: 64px;
+  }
+
   .footer-page-logo,
-  .contacts-list,
-  .footer-nav-link {
-    gap: 25px;
+  .footer-nav,
+  .contacts-item:last-child {
     margin-bottom: 0;
   }
 }
@@ -125,11 +119,6 @@
   .footer {
     padding-top: 50px;
     padding-bottom: 50px;
-    margin: 0;
-  }
-
-  .footer-container {
-    margin: 0 auto;
   }
 
   .footer-container-page {
@@ -140,5 +129,9 @@
     display: flex;
     justify-content: space-between;
     flex-basis: 45%;
+  }
+
+  .footer-nav-item:last-child {
+    margin-bottom: 0px;
   }
 }
