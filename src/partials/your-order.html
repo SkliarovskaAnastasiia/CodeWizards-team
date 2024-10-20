@@ -1,1 +1,60 @@
-<load src="partials/form.html" />
+<section class="section-order section-paddings" id="your-order">
+  <div class="container section-con">
+    <div class="section-con-title">
+      <h3 class="section-title section-title-h">
+        Fresh <span class="order-title-span">Harvest</span> Box has got you
+        covered
+      </h3>
+      <p class="section-description">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+    <div class="section-con-feedback">
+      <div class="order-form">
+        <load src="partials/form.html" />
+      </div>
+      <div class="section-con-social">
+        <picture>
+          <source
+            srcset="
+              ./images/order/order-desk.jpg    1x,
+              ./images/order/order-desk@2x.jpg 2x
+            "
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="
+              ./images/order/order-tablet.jpg    1x,
+              ./images/order/order-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./images/order/order-mobile.jpg    1x,
+              ./images/order/order-mobile@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./images/order/order-mobile.jpg"
+            alt="order"
+            class="order-picture"
+          />
+        </picture>
+        <p class="section-description order-desc-social">
+          Follow us on our social networks:
+        </p>
+        <ul class="order-ul">
+          <li class="order-li">instagram</li>
+          <li class="order-li">/</li>
+          <li class="order-li">facebook</li>
+          <li class="order-li">/</li>
+          <li class="order-li">youtube</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
