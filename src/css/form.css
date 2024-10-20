@@ -1,17 +1,19 @@
-.form-mob-container {
+.form-container {
     border-radius: 30px;
     padding: 40px 20px;
-    width: 335px;
+    width: auto;
     height: 533px;
     background: #fbfbfb;
 }
 
 .form-group {
-    margin: 40px 20px;
+    margin-bottom: 15px;
+
+
 }
 
 .container-title {
-    margin: 40px 20px;
+
     width: 295px;
     height: 130px;
 }
@@ -30,19 +32,13 @@
     color: #7a3145;
 }
 
-.form-b. {
+.form-b {
     color: #576f35;
 }
 
-.form-name {
-    border: 1px solid rgba(20, 20, 20, 0.2);
-    border-radius: 30px;
-    padding: 14px 220px 14px 16px;
-    width: 295px;
-    height: 46px;
-}
-
-.name-label {
+.form-input-name,
+.form-input-mail,
+.form-input::placeholder {
     font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -50,5 +46,47 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #141414;
-    padding: 14px auto 14px 16px;
+}
+
+.form-input-name {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 30px;
+    padding: 14px 220px 14px 16px;
+    width: 295px;
+    height: 46px;
+    margin-top: 40px;
+}
+
+.form-input-mail {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 30px;
+    padding: 14px 247px 14px 16px;
+    width: 295px;
+    height: 46px;
+}
+
+.form-input {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 15px;
+    padding: 14px 219px 59px 16px;
+    width: 295px;
+    height: 91px;
+
+
+}
+
+.form-button {
+    border-radius: 30px;
+    padding: 16px 129px;
+    width: 295px;
+    height: 50px;
+    background: #576f35;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+
 }
