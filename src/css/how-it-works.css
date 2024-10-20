@@ -1,0 +1,130 @@
+/* ================================================= MOBILE 👇
+========================================= */
+.how-it-works-section {
+  background-image: linear-gradient(#576f35, #576f35);
+  background-repeat: no-repeat;
+  background-position: 0 530px;
+}
+.how-it-works-container {
+  padding: 0;
+}
+.how-it-works-img-wrapper {
+  padding: 40px 20px;
+}
+.how-it-works-img {
+  border-radius: 30px;
+}
+.how-it-works-text-section {
+  padding: 80px 20px;
+}
+.how-it-works-title {
+  font-size: 28px;
+  line-height: 1;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+.how-it-works-title-accent {
+  color: rgba(251, 251, 251, 0.3);
+}
+.how-it-works-description {
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+.how-it-works-list {
+  counter-reset: item 0;
+}
+.how-it-works-list-item {
+  position: relative;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  border-radius: 15px;
+  padding-left: 100px;
+  padding-right: 24px;
+  max-width: 335px;
+  height: 76px;
+  background-color: #fbfbfb;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  counter-increment: item;
+}
+.how-it-works-list-item::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: counter(item) ' ';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  position: absolute;
+  top: 12px;
+  left: 24px;
+  border-radius: 50%;
+  outline: 5px solid rgba(122, 49, 69, 0.3);
+  background-color: #7a3145;
+  width: 52px;
+  height: 52px;
+}
+.how-it-works-list-item-accent {
+  font-weight: 700;
+  color: #141414;
+}
+.how-it-works-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+/*
+================================================= TABLET 👇
+========================================= */
+@media screen and (min-width: 768px) {
+  .how-it-works-section {
+    background-position: 0 840px;
+  }
+  .how-it-works-img-wrapper {
+    padding: 100px 64px;
+  }
+  .how-it-works-text-section {
+    padding: 100px 159px;
+  }
+  .how-it-works-title {
+    font-size: 32px;
+    max-width: 450px;
+    margin-bottom: 25px;
+  }
+  .how-it-works-description {
+    max-width: 450px;
+    margin-bottom: 50px;
+  }
+  .how-it-works-list {
+    max-width: 450px;
+  }
+  .how-it-works-list-item {
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+} /*
+================================================= DESKTOP 👇
+========================================= */
+@media screen and (min-width: 1280px) {
+  .how-it-works-section {
+    background-size: 50% 100%;
+    background-position: 100% 0;
+  }
+  .how-it-works-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .how-it-works-img-wrapper {
+    padding: 100px;
+  }
+  .how-it-works-text-section {
+    padding: 100px;
+    max-width: 650px;
+  }
+}
