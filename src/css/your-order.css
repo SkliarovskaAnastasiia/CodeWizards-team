@@ -11,9 +11,6 @@
 }
 
 .order-form{
-    width: 335px;
-    height: 533px;
-    background: #fff;
     margin-bottom: 20px;
 }
 @import url('./form.css');
@@ -65,8 +62,6 @@
         gap:25px;
     }
     .order-form{
-        width: 628px;
-        height: 534px;
         margin: 0;
     }
     .section-con-social {
@@ -96,10 +91,6 @@
         flex-direction: row;
         gap: 24px;
     }
-    .order-form {
-        width: 529px;
-        height: 534px;
-        }
     .order-ul{
         max-width: 357px;
     }
