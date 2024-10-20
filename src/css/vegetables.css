@@ -1,0 +1,67 @@
+.vegetable-container {
+    padding: 80px 20px;
+}
+
+.vegetables-title {
+    font-weight: 600;
+font-size: 48px;
+line-height: 1.04167;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #fbfbfb;
+width: 335px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+
+}
+
+.vegetables-title-span {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.vegetables-paragraph {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        color: #fbfbfb;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        width: 335px;
+}
+
+.vegetables-list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+}
+
+.vegetables-item {
+  
+border-radius: 40px;
+padding: 32px 26px;
+width: 334px;
+height: 379px;  
+background: #fbfbfb;
+}
+
+.vegetable-name {
+    font-weight: 600;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        color: #7a3145;
+        margin-bottom: 12px;
+}
+
+.vegetable-price {
+   font-weight: 600;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #141414; 
+}
