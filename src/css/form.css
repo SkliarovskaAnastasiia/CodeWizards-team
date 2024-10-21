@@ -1,7 +1,7 @@
 .form-container {
   border-radius: 30px;
   padding: 40px 20px;
-  max-width: 335px;
+  /* max-width: 335px; */
   background: #fbfbfb;
 }
 
@@ -42,12 +42,11 @@
 .textarea {
   resize: none;
   overflow: auto;
-  height: 91px;
+  min-height: 91px;
+  border-radius: 15px;
 }
 
-.inp::placeholder {
-  color: #141414;
-}
+.inp::placeholder,
 .inp-comment::placeholder {
   color: #141414;
 }
@@ -90,17 +89,12 @@
   .form-title {
     margin-bottom: 40px;
   }
-  .inp-height {
-    width: 428px;
-    height: 95px;
-    padding: 16px 0 59px 16px;
-    margin-bottom: 15px;
-  }
+
   .form-button {
-    padding: 16px 191px;
+    padding: 16px 16px;
   }
   .textarea {
-    height: 95px;
+    min-height: 95px;
   }
 }
 
@@ -113,6 +107,6 @@
     margin-bottom: 50px;
   }
   .form-button {
-    width: 429px;
+    max-width: 429px;
   }
 }
