@@ -6,12 +6,6 @@
     padding-right: 20px;
 }
 
-.section-paddings {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-
 .vegetables-title {
 color: #fbfbfb;
 max-width: 335px;
@@ -68,24 +62,15 @@ margin-bottom: 10px;
 
 /* tablet */
 
-@media screen and (min-width: 768px){
-.section-paddings {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
+@media screen and (min-width: 768px) {
 
 .vegetables-title { 
-margin-left: 0;
-margin-right: 0;
 margin-bottom: 50px;
 max-width: 508px;
 }
 
 .vegetables-paragraph {
 max-width: 626px;
-margin-left: 0;
-margin-right: 0;
 margin-bottom: 50px;
 }
 
@@ -97,6 +82,7 @@ margin-bottom: 50px;
 border-radius: 40px;
 padding: 32px 30px;
 max-width: 342px;
+width: calc((100% - 20px) / 2);
 }
 
 .vegetable-name {
@@ -108,9 +94,11 @@ font-size: 32px;
 /* desktop */
 
 @media screen and (min-width: 1280px) {
- .vegetable-container {
-    padding: 100px;
+
+ .vegetables-item {
+     width: calc((100% - 20px) / 3);
  }
+
 
 
  .vegetables-title {
