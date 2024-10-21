@@ -32,6 +32,7 @@
   .slogan-text-part {
     line-height: 1.28;
     margin: 0 -16px;
+    padding-left: 16px;
   }
 }
 
@@ -49,5 +50,6 @@
     margin-right: 10px;
     padding-right: 10px;
     letter-spacing: -0.01;
+    padding-left: 13px;
   }
 }
