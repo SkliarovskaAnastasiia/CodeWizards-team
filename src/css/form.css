@@ -96,6 +96,9 @@
   .form-button {
     padding: 16px 191px;
   }
+  .textarea {
+    height: 95пше px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
