@@ -89,13 +89,17 @@ font-size: 32px;
 @media screen and (min-width: 1280px) {
 
  .vegetables-item {
-     width: calc((100% - 20px) / 3);
+     width: calc((100% - 42px) / 3);
  }
 
 
 
  .vegetables-title {
 margin-bottom: 25px;
+ }
+
+ .vegetables-list {
+    column-gap: 21px;
  }
 
 }
