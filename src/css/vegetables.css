@@ -1,13 +1,8 @@
 
 /* mobile */
 
-.vegetable-container {
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .vegetables-title {
-color: #fbfbfb;
 max-width: 335px;
 margin-bottom: 20px;
 
@@ -19,8 +14,6 @@ margin-bottom: 20px;
 
 
 .vegetables-paragraph {
-
-        color: #fbfbfb;
         margin-bottom: 40px;
         max-width: 335px;
 }
