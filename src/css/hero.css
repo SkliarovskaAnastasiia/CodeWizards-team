@@ -4,7 +4,6 @@
 }
 
 .hero-section {
-  position: relative;
   background-color: #576f35;
   margin-left: auto;
   margin-right: auto;
@@ -29,8 +28,6 @@
 }
 
 .hero-text {
-  font-size: 14px;
-  font-weight: 500;
   line-height: 18px;
   text-align: left;
   letter-spacing: 0.02em;
