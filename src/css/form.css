@@ -1,14 +1,14 @@
 .form-container {
   border-radius: 30px;
   padding: 40px 20px;
-  max-width: 335px;
+  max-width: 100%;
   background: #fbfbfb;
 }
 
 .form-title {
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.08333;
+  line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
@@ -71,7 +71,7 @@
   border: none;
   font-weight: 600;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;

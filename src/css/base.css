@@ -1,11 +1,13 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: 'Inter Tight', sans-serif;
   background-color: #7a3145;
   color: #fbfbfb;
+  overflow-x: hidden;
 }
 
 .visually-hidden {
