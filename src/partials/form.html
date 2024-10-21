@@ -4,36 +4,34 @@
     <span class="form-b">the form</span> below and we will contact you !
   </p>
 
-  <div class="inp-wrp">
-    <input
-      class="inp section-description"
-      type="name"
-      name="name"
-      placeholder="Full Name"
-      pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-      required
-    />
-  </div>
-
-  <div class="inp-wrp">
-    <input
-      class="inp section-description"
-      type="email"
-      name="email"
-      placeholder="Email"
-      pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-      required
-    />
-  </div>
-
-  <div class="inp-wrp">
-    <input
-      class="inp inp-height section-description"
-      type="comment"
+  <form action="" class="order-form">
+    <div class="inp-wrp">
+      <input
+        class="inp section-description"
+        type="name"
+        name="name"
+        placeholder="Full Name"
+        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        required
+      />
+    </div>
+    <div class="inp-wrp">
+      <input
+        class="inp section-description"
+        type="email"
+        name="email"
+        placeholder="Email"
+        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        required
+      />
+    </div>
+    <textarea
       name="comment"
+      id="comment"
+      class="inp textarea section-description"
       placeholder="Comment"
-    />
-  </div>
-
-  <button type="submit" class="form-button">SEND</button>
+    ></textarea>
+    <div class="inp-wrp"></div>
+    <button type="submit" class="form-button">SEND</button>
+  </form>
 </div>
