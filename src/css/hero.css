@@ -1,7 +1,4 @@
 /* #region Hero-main-styles */
-.container {
-  padding: 0;
-}
 
 .hero-section {
   background-color: #576f35;
@@ -12,6 +9,7 @@
 .hero-wrapper {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .hero-main-part {
