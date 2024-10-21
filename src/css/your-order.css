@@ -95,4 +95,9 @@
   .order-ul {
     max-width: 357px;
   }
+
+  .order-li-link:hover,
+  .order-li-link:focus {
+    text-decoration: underline;
+  }
 }
