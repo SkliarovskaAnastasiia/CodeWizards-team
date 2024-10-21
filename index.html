@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script type="module" crossorigin src="/CodeWizards-team-project/index.js"></script>
     <link rel="stylesheet" crossorigin href="/CodeWizards-team-project/assets/index-OqDpYHhl.css">
   </head>
@@ -192,7 +193,7 @@
       nutritious produce possible.
     </p>
     <ul class="vegetables-list">
-      <li class="vegetables-item">
+      <li class="vegetables-item" data-aos="zoom-in">
         <p class="vegetable-name">eggplant</p>
         <p class="vegetable-price">60 USD / kg</p>
         <img
@@ -201,7 +202,7 @@
           alt="eggplant"
         />
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item" data-aos="zoom-in">
         <p class="vegetable-name">leek</p>
         <p class="vegetable-price">50 USD / kg</p>
         <img
@@ -210,7 +211,7 @@
           alt="leek"
         />
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item" data-aos="zoom-in">
         <p class="vegetable-name">mushrooms</p>
         <p class="vegetable-price">40 USD / kg</p>
         <img
@@ -219,7 +220,7 @@
           alt="mushrooms"
         />
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item" data-aos="zoom-in">
         <p class="vegetable-name">corn</p>
         <p class="vegetable-price">60 USD / kg</p>
         <img
@@ -228,7 +229,7 @@
           alt="corn"
         />
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item" data-aos="zoom-in">
         <p class="vegetable-name">sweet potatoes</p>
         <p class="vegetable-price">50 USD / kg</p>
         <img
@@ -237,7 +238,7 @@
           alt="sweet potatoes"
         />
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item" data-aos="zoom-in">
         <p class="vegetable-name">carrot</p>
         <p class="vegetable-price">40 USD / kg</p>
         <img
@@ -332,7 +333,7 @@
     </div>
     <div class="section-con-feedback">
       <div class="order-form">
-        <div class="form-container">
+        <div class="form-container" data-aos="fade-right">
   <p class="form-title">
     Ordering <span class="form-a">from us</span> is quick and easy! Fill out
     <span class="form-b">the form</span> below and we will contact you !
@@ -373,7 +374,7 @@
 </div>
 
       </div>
-      <div class="section-con-social">
+      <div class="section-con-social" data-aos="fade-left">
         <picture>
           <source
             srcset="/CodeWizards-team-project/assets/order-desk-BYDJpbo4.jpg 1x, /CodeWizards-team-project/assets/order-desk@2x-NhQPZNmK.jpg 2x"
@@ -498,5 +499,9 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
