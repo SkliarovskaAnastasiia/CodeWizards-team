@@ -34,10 +34,14 @@
   border-radius: 30px;
   outline: none;
 }
+
+.textarea-wrp {
+  margin-bottom: 20px;
+}
+
 .textarea {
   resize: none;
   overflow: auto;
-  margin-bottom: 10px;
   height: 91px;
 }
 
@@ -78,7 +82,6 @@
   .form-container {
     padding: 50px 100px;
     max-width: 628px;
-    height: 534px;
   }
   .inp {
     width: 100%;
@@ -97,7 +100,7 @@
     padding: 16px 191px;
   }
   .textarea {
-    height: 95пше px;
+    height: 95px;
   }
 }
 
