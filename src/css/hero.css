@@ -6,7 +6,6 @@
 .hero-section {
   position: relative;
   background-color: #576f35;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -40,10 +39,26 @@
 .hero-image-part {
   height: 370px;
   width: 100%;
-  background-image: url('/images/hero/hero-mobile.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
+    ),
+    url('../images/hero/hero-mobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero-image-part {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('../images/hero/hero-mobile@2x.jpg');
+  }
 }
 /* #endregion */
 
@@ -64,8 +79,24 @@
     max-width: 603px;
   }
   .hero-image-part {
-    background-image: url('../images/hero/hero-tablet.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('../images/hero/hero-tablet.jpg');
     height: 539px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) and (min-resolution: 192dpi) {
+  .hero-image-part {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('../images/hero/hero-tablet@2x.jpg');
   }
 }
 /* #endregion */
@@ -90,9 +121,26 @@
     line-height: 20px;
   }
   .hero-image-part {
-    background-image: url('../images/hero/hero-desk.jpg');
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('../images/hero/hero-desk.jpg');
     width: 650px;
     height: 800px;
   }
 }
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .hero-image-part {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
+      ),
+      url('../images/hero/hero-desk@2x.jpg');
+  }
+}
 /* #endregion */
+
+/* (min-resolution: 192dpi) */
