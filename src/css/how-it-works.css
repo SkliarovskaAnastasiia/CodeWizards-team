@@ -113,8 +113,8 @@
 ========================================= */
 @media screen and (min-width: 1280px) {
   .how-it-works-section {
-    background-size: 50% 100%;
-    background-position: 100% 0;
+    background-size: 51% 100%;
+    background-position: 100.5% 0;
   }
   .how-it-works-content-wrapper {
     display: flex;
