@@ -1,0 +1,115 @@
+.form-container {
+  border-radius: 30px;
+  padding: 40px 20px;
+  max-width: 335px;
+  background: #fbfbfb;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 40px;
+}
+
+.form-a {
+  color: #7a3145;
+}
+
+.form-b {
+  color: #576f35;
+}
+
+.inp-wrp {
+  margin-bottom: 15px;
+}
+
+.inp {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  outline: none;
+}
+.textarea {
+  resize: none;
+  overflow: auto;
+  margin-bottom: 10px;
+  height: 91px;
+}
+
+.inp::placeholder {
+  color: #141414;
+}
+.inp-comment::placeholder {
+  color: #141414;
+}
+
+.inp:focus {
+  border-color: #7a3145;
+}
+
+.inp:not(:placeholder-shown):invalid {
+  border-color: #e74a3b;
+}
+
+.inp:not(:placeholder-shown):valid {
+  border-color: #3cbc81;
+}
+
+.form-button {
+  border-radius: 30px;
+  width: 100%;
+  padding: 16px 16px;
+  background: #576f35;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-container {
+    padding: 50px 100px;
+    max-width: 628px;
+    height: 534px;
+  }
+  .inp {
+    width: 100%;
+    padding: 16px;
+  }
+  .form-title {
+    margin-bottom: 40px;
+  }
+  .inp-height {
+    width: 428px;
+    height: 95px;
+    padding: 16px 0 59px 16px;
+    margin-bottom: 15px;
+  }
+  .form-button {
+    padding: 16px 191px;
+  }
+  .textarea {
+    height: 95пше px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .form-container {
+    padding: 50px 50px;
+    max-width: 529px;
+  }
+  .form-title {
+    margin-bottom: 50px;
+  }
+  .form-button {
+    width: 429px;
+  }
+}
