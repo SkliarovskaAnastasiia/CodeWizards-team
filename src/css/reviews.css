@@ -55,7 +55,7 @@
   line-height: 1.29;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
-  max-width: 100%;
+  max-width: 288px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -88,7 +88,7 @@
     display: none; /* Ховати всі елементи */
     max-width: calc((100% - 18px) / 2);
 
-    padding: 20px;
+    padding: 27.5px;
   }
 
   .section-reviews-items:nth-child(-n + 2) {
