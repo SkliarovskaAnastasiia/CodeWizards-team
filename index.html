@@ -22,32 +22,35 @@
   <body>
     <header class="header">
   <div class="container header-container">
-        <nav class="header-nav">
-            <a href="./index.html" class="header-logo-link">
-              <svg class="header-logo" width="168" height="16">
-                <use href="/CodeWizards-team-project/assets/icons-B2c3bmLz.svg#icon-logo"></use>
-              </svg>
-            </a>
-          <ul class="header-list">
-            <li class="header-list-item">
-              <a href="#how-it-works">How It Works</a>
-            </li>
-            <li class="header-list-item">
-              <a href="#vegetables">Vegetables</a>
-            </li>
-            <li class="header-list-item">
-              <a href="#reviews">Reviews</a>
-            </li>
-          </ul>
-        </nav>
-        <a href="#your-order" class="button-nav">SHOP NOW</a>
-        <button class="burget-btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
-          <svg class="header-burger" width="32" height="32">
-            <use href="/CodeWizards-team-project/assets/icons-B2c3bmLz.svg#icon-burger-btn"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
+    <nav class="header-nav">
+      <a href="./index.html" class="header-logo-link">
+        <svg class="header-logo" width="168" height="16">
+          <use href="/CodeWizards-team-project/assets/icons-B2c3bmLz.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="header-list">
+        <li class="header-list-item">
+          <a href="#how-it-works">How It Works</a>
+        </li>
+        <li class="header-list-item">
+          <a href="#vegetables">Vegetables</a>
+        </li>
+        <li class="header-list-item">
+          <a href="#reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <a href="#your-order" class="button-nav">SHOP NOW</a>
+    <button
+      class="burget-btn js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      type="button"
+    >
+      <svg class="header-burger" width="32" height="32">
+        <use href="/CodeWizards-team-project/assets/icons-B2c3bmLz.svg#icon-burger-btn"></use>
+      </svg>
+    </button>
   </div>
 </header>
 
@@ -343,10 +346,10 @@
     <div class="inp-wrp">
       <input
         class="inp section-description"
-        type="name"
-        name="name"
+        type="text"
+        name="user-name"
         placeholder="Full Name"
-        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        pattern="([A-z]{1,})+([A-z]{1,})"
         required
       />
     </div>
@@ -354,7 +357,7 @@
       <input
         class="inp section-description"
         type="email"
-        name="email"
+        name="user-email"
         placeholder="Email"
         pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         required
@@ -363,8 +366,7 @@
 
     <div class="textarea-wrp">
       <textarea
-        name="comment"
-        id="comment"
+        name="user-comment"
         class="inp textarea section-description"
         placeholder="Comment"
       ></textarea>
